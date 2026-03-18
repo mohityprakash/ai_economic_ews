@@ -1,0 +1,30 @@
+[
+  {
+    "date": "2024-01-01",
+    "capability_score": 0.6922,
+    "cost_per_1m_weighted": 10.0,
+    "affordability_raw": 0.256099,
+    "ai_affordability_index": 0.0
+  },
+  {
+    "date": "2024-07-01",
+    "capability_score": 0.7722,
+    "cost_per_1m_weighted": 4.1667,
+    "affordability_raw": 0.784217,
+    "ai_affordability_index": 100.0
+  },
+  {
+    "date": "2025-01-01",
+    "capability_score": 0.8022,
+    "cost_per_1m_weighted": 3.8,
+    "affordability_raw": 0.485009,
+    "ai_affordability_index": 43.34
+  },
+  {
+    "date": "2026-01-01",
+    "capability_score": 0.8667,
+    "cost_per_1m_weighted": 3.5417,
+    "affordability_raw": 0.612296,
+    "ai_affordability_index": 67.45
+  }
+]

@@ -1,0 +1,5 @@
+dataset,captured_at,mode,status,description,category
+ai_pricing,2026-03-18T20:23:41.937767+00:00,fallback_snapshot,fallback,,
+capability_benchmarks,2026-03-18T20:23:41.937816+00:00,manual_curated_snapshot,source_backed,,
+macro_labor,2026-03-18T20:23:41.937880+00:00,deterministic_fallback_snapshot,fallback,,
+occupation_labor,2026-03-18T20:23:41.937915+00:00,deterministic_fallback_snapshot,fallback,,

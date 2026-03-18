@@ -1,0 +1,30 @@
+[
+  {
+    "date": "2024-01-01",
+    "ai_affordability_index": 0.0,
+    "labor_substitution_pressure_index": 0.0,
+    "ai_concentration_index": 100.0,
+    "economic_fragility_index": 0.0
+  },
+  {
+    "date": "2024-07-01",
+    "ai_affordability_index": 100.0,
+    "labor_substitution_pressure_index": 0.0,
+    "ai_concentration_index": 92.31,
+    "economic_fragility_index": 35.03
+  },
+  {
+    "date": "2025-01-01",
+    "ai_affordability_index": 43.34,
+    "labor_substitution_pressure_index": 60.37,
+    "ai_concentration_index": 17.95,
+    "economic_fragility_index": 48.9
+  },
+  {
+    "date": "2026-01-01",
+    "ai_affordability_index": 67.45,
+    "labor_substitution_pressure_index": 100.0,
+    "ai_concentration_index": 0.0,
+    "economic_fragility_index": 100.0
+  }
+]

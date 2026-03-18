@@ -1,0 +1,98 @@
+[
+  {
+    "date": "2024-01-01",
+    "provider": "OpenAI",
+    "model": "gpt-4-turbo",
+    "capability_score": 0.7067,
+    "cost_per_1m_weighted": 20.0,
+    "affordability_raw": 0.035333
+  },
+  {
+    "date": "2024-07-01",
+    "provider": "OpenAI",
+    "model": "gpt-4o-mini",
+    "capability_score": 0.7567,
+    "cost_per_1m_weighted": 0.375,
+    "affordability_raw": 2.017778
+  },
+  {
+    "date": "2025-01-01",
+    "provider": "OpenAI",
+    "model": "gpt-4.1-mini",
+    "capability_score": 0.8,
+    "cost_per_1m_weighted": 1.0,
+    "affordability_raw": 0.8
+  },
+  {
+    "date": "2026-01-01",
+    "provider": "OpenAI",
+    "model": "gpt-5-mini",
+    "capability_score": 0.8567,
+    "cost_per_1m_weighted": 0.625,
+    "affordability_raw": 1.370667
+  },
+  {
+    "date": "2024-01-01",
+    "provider": "Anthropic",
+    "model": "claude-3-sonnet",
+    "capability_score": 0.7167,
+    "cost_per_1m_weighted": 9.0,
+    "affordability_raw": 0.07963
+  },
+  {
+    "date": "2024-07-01",
+    "provider": "Anthropic",
+    "model": "claude-3.5-sonnet",
+    "capability_score": 0.7867,
+    "cost_per_1m_weighted": 9.0,
+    "affordability_raw": 0.087407
+  },
+  {
+    "date": "2025-01-01",
+    "provider": "Anthropic",
+    "model": "claude-3.7-sonnet",
+    "capability_score": 0.8167,
+    "cost_per_1m_weighted": 9.0,
+    "affordability_raw": 0.090741
+  },
+  {
+    "date": "2026-01-01",
+    "provider": "Anthropic",
+    "model": "claude-4-sonnet",
+    "capability_score": 0.8667,
+    "cost_per_1m_weighted": 7.5,
+    "affordability_raw": 0.115556
+  },
+  {
+    "date": "2024-01-01",
+    "provider": "Google",
+    "model": "gemini-1.0-pro",
+    "capability_score": 0.6533,
+    "cost_per_1m_weighted": 1.0,
+    "affordability_raw": 0.653333
+  },
+  {
+    "date": "2024-07-01",
+    "provider": "Google",
+    "model": "gemini-1.5-pro",
+    "capability_score": 0.7733,
+    "cost_per_1m_weighted": 3.125,
+    "affordability_raw": 0.247467
+  },
+  {
+    "date": "2025-01-01",
+    "provider": "Google",
+    "model": "gemini-2.0-flash",
+    "capability_score": 0.79,
+    "cost_per_1m_weighted": 1.4,
+    "affordability_raw": 0.564286
+  },
+  {
+    "date": "2026-01-01",
+    "provider": "Google",
+    "model": "gemini-2.5-pro",
+    "capability_score": 0.8767,
+    "cost_per_1m_weighted": 2.5,
+    "affordability_raw": 0.350667
+  }
+]

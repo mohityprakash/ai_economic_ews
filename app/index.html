@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>AI Economic Early Warning System</title>
+  <style>
+    body { font-family: Arial, sans-serif; margin: 0; background: #0f172a; color: #e2e8f0; }
+    header { padding: 24px; background: #111827; position: sticky; top: 0; }
+    nav a { color: #93c5fd; margin-right: 16px; text-decoration: none; }
+    main { padding: 24px; }
+    .cards { display: grid; grid-template-columns: repeat(4, 1fr); gap: 16px; }
+    .card { background: #1e293b; padding: 16px; border-radius: 10px; }
+    .section { margin-top: 28px; background: #111827; padding: 20px; border-radius: 10px; }
+    table { width: 100%; border-collapse: collapse; margin-top: 12px; }
+    th, td { border-bottom: 1px solid #334155; padding: 8px; text-align: left; }
+    .bars { display: grid; gap: 8px; }
+    .bar-row { display: grid; grid-template-columns: 180px 1fr 80px; gap: 12px; align-items: center; }
+    .bar { height: 16px; background: #22c55e; border-radius: 999px; }
+    .small { color: #94a3b8; }
+    .grid-2 { display:grid; grid-template-columns:1fr 1fr; gap:16px; }
+    pre { white-space: pre-wrap; }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>AI Economic Early Warning System</h1>
+    <nav>
+      <a href="#overview">Overview</a>
+      <a href="#cost">AI Cost-Capability</a>
+      <a href="#labor">Labor</a>
+      <a href="#concentration">Concentration</a>
+      <a href="#fragility">Fragility</a>
+      <a href="#methodology">Methodology</a>
+      <a href="#sources">Data Sources</a>
+    </nav>
+  </header>
+  <main id="app"></main>
+  <script>
+    const fmt = (n) => Number(n).toFixed(1);
+    const app = document.getElementById('app');
+    const makeTable = (rows, columns) => {
+      const header = `<tr>${columns.map(c => `<th>${c}</th>`).join('')}</tr>`;
+      const body = rows.map(r => `<tr>${columns.map(c => `<td>${r[c] ?? ''}</td>`).join('')}</tr>`).join('');
+      return `<table>${header}${body}</table>`;
+    };
+    const sparkBars = (rows, labelKey, valueKey, scale=1) => `
+      <div class="bars">${rows.map(r => `<div class="bar-row"><div>${r[labelKey]}</div><div style="background:#334155;border-radius:999px"><div class="bar" style="width:${Number(r[valueKey])*scale}%"></div></div><div>${fmt(r[valueKey])}</div></div>`).join('')}</div>`;
+    fetch('dashboard_data.json').then(r => r.json()).then(data => {
+      const overview = data.overview;
+      const latest = overview[overview.length - 1];
+      const latestDate = latest.date;
+      const latestOcc = Object.values(data.occupation_panel.reduce((acc, row) => { acc[row.occ_code] = row; return acc; }, {})).sort((a,b) => b.risk_score - a.risk_score);
+      const latestSharesDate = data.shares[data.shares.length - 1].date;
+      const latestShares = data.shares.filter(r => r.date === latestSharesDate);
+      app.innerHTML = `
+        <section id="overview" class="section">
+          <h2>Overview</h2>
+          <p class="small">Latest observation date: ${latestDate}. Dashboard reads only local saved marts and dashboard assets.</p>
+          <div class="cards">
+            <div class="card"><h3>AI Affordability</h3><div>${fmt(latest.ai_affordability_index)}</div></div>
+            <div class="card"><h3>Labor Pressure</h3><div>${fmt(latest.labor_substitution_pressure_index)}</div></div>
+            <div class="card"><h3>AI Concentration</h3><div>${fmt(latest.ai_concentration_index)}</div></div>
+            <div class="card"><h3>Economic Fragility</h3><div>${fmt(latest.economic_fragility_index)}</div></div>
+          </div>
+          <p>Systemic risk rises when AI capability and affordability outpace labor, competition, and macroeconomic adjustment.</p>
+          <div class="grid-2">
+            <div><h3>Composite index trends</h3>${sparkBars(overview, 'date', 'ai_affordability_index')}</div>
+            <div><h3>Data freshness</h3>${makeTable(data.freshness, ['dataset','captured_at','mode','status'])}</div>
+          </div>
+        </section>
+        <section id="cost" class="section">
+          <h2>AI Cost-Capability Engine</h2>
+          <p>Affordability = normalized capability divided by weighted API cost.</p>
+          ${makeTable(data.affordability, ['date','capability_score','cost_per_1m_weighted','affordability_raw','ai_affordability_index'])}
+          <h3>Provider-model snapshots</h3>
+          ${makeTable(data.cost_capability, ['date','provider','model','capability_score','cost_per_1m_weighted','affordability_raw'])}
+        </section>
+        <section id="labor" class="section">
+          <h2>Labor Market Disruption Engine</h2>
+          <p>Occupation risk is exposure × affordability × wage level, scaled by postings and employment softness.</p>
+          ${makeTable(data.labor_index, ['date','high_exposure_postings','low_exposure_postings','labor_substitution_pressure_index'])}
+          <h3>Occupation risk table</h3>
+          ${makeTable(latestOcc.slice(0, 10), ['occupation','sector','ai_exposure','annual_wage_usd','postings_index','employment_index','risk_score'])}
+        </section>
+        <section id="concentration" class="section">
+          <h2>Market Concentration Engine</h2>
+          <p>v1 uses a transparent, editable manual proxy share table stored under <code>data/reference/concentration_reference.csv</code>.</p>
+          ${makeTable(data.concentration_index, ['date','hhi','ai_concentration_index'])}
+          <h3>Latest provider share proxy</h3>
+          ${sparkBars(latestShares, 'firm', 'share', 100)}
+        </section>
+        <section id="fragility" class="section">
+          <h2>Macro-Financial Risk Engine</h2>
+          <p>Composite combines wage-productivity divergence, unemployment, openings weakness, sector stress, and AI affordability spillover.</p>
+          ${makeTable(data.macro_fragility, ['date','unemployment_rate','wage_productivity_gap','job_openings_stress','sector_stress_index','economic_fragility_index'])}
+        </section>
+        <section id="methodology" class="section">
+          <h2>Methodology</h2>
+          <pre>AI Affordability Index = normalized(mean benchmark capability / weighted model API cost)
+Labor Substitution Pressure Index = normalized employment-weighted occupation risk
+Occupation Risk = AI Exposure × AI Affordability × Wage Indexed × postings softness × employment softness
+AI Concentration Index = normalized HHI from manual share proxy table
+Economic Fragility Index = normalized weighted composite of wage-productivity gap, unemployment, job-openings stress, sector stress, and AI affordability
+
+Assumptions:
+- Dashboard never makes live external requests.
+- Pricing sources are attempted but v1 stores deterministic local snapshots.
+- Capability data are curated local benchmark snapshots.
+- Macro/labor signals are fallback snapshots until production connectors are added.
+- Concentration shares are manual proxies for v1.</pre>
+        </section>
+        <section id="sources" class="section">
+          <h2>Data source registry</h2>
+          ${makeTable(data.source_registry, ['source_id','domain','category','ingestion_mode','status','description'])}
+        </section>`;
+    }).catch(err => {
+      app.innerHTML = `<section class="section"><h2>Dashboard load error</h2><pre>${err}</pre></section>`;
+    });
+  </script>
+</body>
+</html>

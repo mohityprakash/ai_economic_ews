@@ -1,0 +1,26 @@
+date,market,firm,share,source_type,notes
+2024-01-01,frontier_model_access,OpenAI,0.38,manual_proxy,Proxy share based on public ecosystem visibility and enterprise usage discussion.
+2024-01-01,frontier_model_access,Anthropic,0.22,manual_proxy,Proxy share for frontier API access.
+2024-01-01,frontier_model_access,Google,0.18,manual_proxy,Proxy share for Gemini family access.
+2024-01-01,frontier_model_access,Meta,0.12,manual_proxy,Proxy share for open model ecosystem access.
+2024-01-01,frontier_model_access,Others,0.10,manual_proxy,Residual.
+2024-07-01,frontier_model_access,OpenAI,0.37,manual_proxy,Manual update.
+2024-07-01,frontier_model_access,Anthropic,0.24,manual_proxy,Manual update.
+2024-07-01,frontier_model_access,Google,0.18,manual_proxy,Manual update.
+2024-07-01,frontier_model_access,Meta,0.11,manual_proxy,Manual update.
+2024-07-01,frontier_model_access,Others,0.10,manual_proxy,Residual.
+2025-01-01,frontier_model_access,OpenAI,0.35,manual_proxy,Manual update.
+2025-01-01,frontier_model_access,Anthropic,0.25,manual_proxy,Manual update.
+2025-01-01,frontier_model_access,Google,0.19,manual_proxy,Manual update.
+2025-01-01,frontier_model_access,Meta,0.11,manual_proxy,Manual update.
+2025-01-01,frontier_model_access,Others,0.10,manual_proxy,Residual.
+2025-07-01,frontier_model_access,OpenAI,0.34,manual_proxy,Manual update.
+2025-07-01,frontier_model_access,Anthropic,0.27,manual_proxy,Manual update.
+2025-07-01,frontier_model_access,Google,0.18,manual_proxy,Manual update.
+2025-07-01,frontier_model_access,Meta,0.11,manual_proxy,Manual update.
+2025-07-01,frontier_model_access,Others,0.10,manual_proxy,Residual.
+2026-01-01,frontier_model_access,OpenAI,0.33,manual_proxy,Manual update.
+2026-01-01,frontier_model_access,Anthropic,0.28,manual_proxy,Manual update.
+2026-01-01,frontier_model_access,Google,0.18,manual_proxy,Manual update.
+2026-01-01,frontier_model_access,Meta,0.11,manual_proxy,Manual update.
+2026-01-01,frontier_model_access,Others,0.10,manual_proxy,Residual.
