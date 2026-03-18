@@ -1,0 +1,13 @@
+date,provider,model,mmlu,gpqa,swe_bench
+2024-01-01,OpenAI,gpt-4-turbo,0.68,0.74,0.7
+2024-07-01,OpenAI,gpt-4o-mini,0.72,0.78,0.77
+2025-01-01,OpenAI,gpt-4.1-mini,0.77,0.82,0.81
+2026-01-01,OpenAI,gpt-5-mini,0.84,0.87,0.86
+2024-01-01,Anthropic,claude-3-sonnet,0.66,0.76,0.73
+2024-07-01,Anthropic,claude-3.5-sonnet,0.74,0.82,0.8
+2025-01-01,Anthropic,claude-3.7-sonnet,0.78,0.84,0.83
+2026-01-01,Anthropic,claude-4-sonnet,0.85,0.88,0.87
+2024-01-01,Google,gemini-1.0-pro,0.61,0.68,0.67
+2024-07-01,Google,gemini-1.5-pro,0.73,0.8,0.79
+2025-01-01,Google,gemini-2.0-flash,0.76,0.81,0.8
+2026-01-01,Google,gemini-2.5-pro,0.86,0.89,0.88

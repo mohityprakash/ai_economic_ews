@@ -1,0 +1,1045 @@
+{
+  "overview": [
+    {
+      "date": "2024-01-01",
+      "ai_affordability_index": 0.0,
+      "labor_substitution_pressure_index": 0.0,
+      "ai_concentration_index": 100.0,
+      "economic_fragility_index": 0.0
+    },
+    {
+      "date": "2024-07-01",
+      "ai_affordability_index": 100.0,
+      "labor_substitution_pressure_index": 0.0,
+      "ai_concentration_index": 92.31,
+      "economic_fragility_index": 35.03
+    },
+    {
+      "date": "2025-01-01",
+      "ai_affordability_index": 43.34,
+      "labor_substitution_pressure_index": 60.37,
+      "ai_concentration_index": 17.95,
+      "economic_fragility_index": 48.9
+    },
+    {
+      "date": "2026-01-01",
+      "ai_affordability_index": 67.45,
+      "labor_substitution_pressure_index": 100.0,
+      "ai_concentration_index": 0.0,
+      "economic_fragility_index": 100.0
+    }
+  ],
+  "affordability": [
+    {
+      "date": "2024-01-01",
+      "capability_score": 0.6922,
+      "cost_per_1m_weighted": 10.0,
+      "affordability_raw": 0.256099,
+      "ai_affordability_index": 0.0
+    },
+    {
+      "date": "2024-07-01",
+      "capability_score": 0.7722,
+      "cost_per_1m_weighted": 4.1667,
+      "affordability_raw": 0.784217,
+      "ai_affordability_index": 100.0
+    },
+    {
+      "date": "2025-01-01",
+      "capability_score": 0.8022,
+      "cost_per_1m_weighted": 3.8,
+      "affordability_raw": 0.485009,
+      "ai_affordability_index": 43.34
+    },
+    {
+      "date": "2026-01-01",
+      "capability_score": 0.8667,
+      "cost_per_1m_weighted": 3.5417,
+      "affordability_raw": 0.612296,
+      "ai_affordability_index": 67.45
+    }
+  ],
+  "cost_capability": [
+    {
+      "date": "2024-01-01",
+      "provider": "OpenAI",
+      "model": "gpt-4-turbo",
+      "capability_score": 0.7067,
+      "cost_per_1m_weighted": 20.0,
+      "affordability_raw": 0.035333
+    },
+    {
+      "date": "2024-07-01",
+      "provider": "OpenAI",
+      "model": "gpt-4o-mini",
+      "capability_score": 0.7567,
+      "cost_per_1m_weighted": 0.375,
+      "affordability_raw": 2.017778
+    },
+    {
+      "date": "2025-01-01",
+      "provider": "OpenAI",
+      "model": "gpt-4.1-mini",
+      "capability_score": 0.8,
+      "cost_per_1m_weighted": 1.0,
+      "affordability_raw": 0.8
+    },
+    {
+      "date": "2026-01-01",
+      "provider": "OpenAI",
+      "model": "gpt-5-mini",
+      "capability_score": 0.8567,
+      "cost_per_1m_weighted": 0.625,
+      "affordability_raw": 1.370667
+    },
+    {
+      "date": "2024-01-01",
+      "provider": "Anthropic",
+      "model": "claude-3-sonnet",
+      "capability_score": 0.7167,
+      "cost_per_1m_weighted": 9.0,
+      "affordability_raw": 0.07963
+    },
+    {
+      "date": "2024-07-01",
+      "provider": "Anthropic",
+      "model": "claude-3.5-sonnet",
+      "capability_score": 0.7867,
+      "cost_per_1m_weighted": 9.0,
+      "affordability_raw": 0.087407
+    },
+    {
+      "date": "2025-01-01",
+      "provider": "Anthropic",
+      "model": "claude-3.7-sonnet",
+      "capability_score": 0.8167,
+      "cost_per_1m_weighted": 9.0,
+      "affordability_raw": 0.090741
+    },
+    {
+      "date": "2026-01-01",
+      "provider": "Anthropic",
+      "model": "claude-4-sonnet",
+      "capability_score": 0.8667,
+      "cost_per_1m_weighted": 7.5,
+      "affordability_raw": 0.115556
+    },
+    {
+      "date": "2024-01-01",
+      "provider": "Google",
+      "model": "gemini-1.0-pro",
+      "capability_score": 0.6533,
+      "cost_per_1m_weighted": 1.0,
+      "affordability_raw": 0.653333
+    },
+    {
+      "date": "2024-07-01",
+      "provider": "Google",
+      "model": "gemini-1.5-pro",
+      "capability_score": 0.7733,
+      "cost_per_1m_weighted": 3.125,
+      "affordability_raw": 0.247467
+    },
+    {
+      "date": "2025-01-01",
+      "provider": "Google",
+      "model": "gemini-2.0-flash",
+      "capability_score": 0.79,
+      "cost_per_1m_weighted": 1.4,
+      "affordability_raw": 0.564286
+    },
+    {
+      "date": "2026-01-01",
+      "provider": "Google",
+      "model": "gemini-2.5-pro",
+      "capability_score": 0.8767,
+      "cost_per_1m_weighted": 2.5,
+      "affordability_raw": 0.350667
+    }
+  ],
+  "occupation_panel": [
+    {
+      "date": "2024-01-01",
+      "occ_code": "15-1256",
+      "postings_index": "100",
+      "employment_index": "100",
+      "annual_wage_usd": "132000",
+      "occupation": "Software Developers",
+      "sector": "Technology",
+      "ai_exposure": 0.78,
+      "ai_affordability_index": 0.0,
+      "wage_indexed": 1.5191,
+      "substitution_pressure": 0.0,
+      "risk_score": 0.0
+    },
+    {
+      "date": "2024-01-01",
+      "occ_code": "13-2011",
+      "postings_index": "100",
+      "employment_index": "100",
+      "annual_wage_usd": "91000",
+      "occupation": "Accountants and Auditors",
+      "sector": "Business Services",
+      "ai_exposure": 0.74,
+      "ai_affordability_index": 0.0,
+      "wage_indexed": 1.0473,
+      "substitution_pressure": 0.0,
+      "risk_score": 0.0
+    },
+    {
+      "date": "2024-01-01",
+      "occ_code": "43-6014",
+      "postings_index": "100",
+      "employment_index": "100",
+      "annual_wage_usd": "43000",
+      "occupation": "Secretaries and Administrative Assistants",
+      "sector": "Office Support",
+      "ai_exposure": 0.82,
+      "ai_affordability_index": 0.0,
+      "wage_indexed": 0.4949,
+      "substitution_pressure": 0.0,
+      "risk_score": 0.0
+    },
+    {
+      "date": "2024-01-01",
+      "occ_code": "27-3043",
+      "postings_index": "100",
+      "employment_index": "100",
+      "annual_wage_usd": "73000",
+      "occupation": "Writers and Authors",
+      "sector": "Media",
+      "ai_exposure": 0.88,
+      "ai_affordability_index": 0.0,
+      "wage_indexed": 0.8401,
+      "substitution_pressure": 0.0,
+      "risk_score": 0.0
+    },
+    {
+      "date": "2024-01-01",
+      "occ_code": "29-1141",
+      "postings_index": "100",
+      "employment_index": "100",
+      "annual_wage_usd": "86000",
+      "occupation": "Registered Nurses",
+      "sector": "Healthcare",
+      "ai_exposure": 0.31,
+      "ai_affordability_index": 0.0,
+      "wage_indexed": 0.9897,
+      "substitution_pressure": 0.0,
+      "risk_score": 0.0
+    },
+    {
+      "date": "2024-01-01",
+      "occ_code": "11-3031",
+      "postings_index": "100",
+      "employment_index": "100",
+      "annual_wage_usd": "156000",
+      "occupation": "Financial Managers",
+      "sector": "Finance",
+      "ai_exposure": 0.64,
+      "ai_affordability_index": 0.0,
+      "wage_indexed": 1.7953,
+      "substitution_pressure": 0.0,
+      "risk_score": 0.0
+    },
+    {
+      "date": "2024-01-01",
+      "occ_code": "41-2031",
+      "postings_index": "100",
+      "employment_index": "100",
+      "annual_wage_usd": "35000",
+      "occupation": "Retail Salespersons",
+      "sector": "Retail",
+      "ai_exposure": 0.27,
+      "ai_affordability_index": 0.0,
+      "wage_indexed": 0.4028,
+      "substitution_pressure": 0.0,
+      "risk_score": 0.0
+    },
+    {
+      "date": "2024-01-01",
+      "occ_code": "53-3032",
+      "postings_index": "100",
+      "employment_index": "100",
+      "annual_wage_usd": "54000",
+      "occupation": "Heavy and Tractor-Trailer Truck Drivers",
+      "sector": "Transportation",
+      "ai_exposure": 0.11,
+      "ai_affordability_index": 0.0,
+      "wage_indexed": 0.6215,
+      "substitution_pressure": 0.0,
+      "risk_score": 0.0
+    },
+    {
+      "date": "2024-01-01",
+      "occ_code": "25-2021",
+      "postings_index": "100",
+      "employment_index": "100",
+      "annual_wage_usd": "65000",
+      "occupation": "Elementary School Teachers",
+      "sector": "Education",
+      "ai_exposure": 0.22,
+      "ai_affordability_index": 0.0,
+      "wage_indexed": 0.748,
+      "substitution_pressure": 0.0,
+      "risk_score": 0.0
+    },
+    {
+      "date": "2024-01-01",
+      "occ_code": "15-2051",
+      "postings_index": "100",
+      "employment_index": "100",
+      "annual_wage_usd": "118000",
+      "occupation": "Data Scientists",
+      "sector": "Technology",
+      "ai_exposure": 0.69,
+      "ai_affordability_index": 0.0,
+      "wage_indexed": 1.358,
+      "substitution_pressure": 0.0,
+      "risk_score": 0.0
+    },
+    {
+      "date": "2025-01-01",
+      "occ_code": "15-1256",
+      "postings_index": "95",
+      "employment_index": "101",
+      "annual_wage_usd": "134000",
+      "occupation": "Software Developers",
+      "sector": "Technology",
+      "ai_exposure": 0.78,
+      "ai_affordability_index": 43.34,
+      "wage_indexed": 1.5421,
+      "substitution_pressure": 52.1317,
+      "risk_score": 54.3321
+    },
+    {
+      "date": "2025-01-01",
+      "occ_code": "13-2011",
+      "postings_index": "94",
+      "employment_index": "101",
+      "annual_wage_usd": "92500",
+      "occupation": "Accountants and Auditors",
+      "sector": "Business Services",
+      "ai_exposure": 0.74,
+      "ai_affordability_index": 43.34,
+      "wage_indexed": 1.0645,
+      "substitution_pressure": 34.141,
+      "risk_score": 35.9606
+    },
+    {
+      "date": "2025-01-01",
+      "occ_code": "43-6014",
+      "postings_index": "89",
+      "employment_index": "100",
+      "annual_wage_usd": "43600",
+      "occupation": "Secretaries and Administrative Assistants",
+      "sector": "Office Support",
+      "ai_exposure": 0.82,
+      "ai_affordability_index": 43.34,
+      "wage_indexed": 0.5018,
+      "substitution_pressure": 17.8321,
+      "risk_score": 20.0361
+    },
+    {
+      "date": "2025-01-01",
+      "occ_code": "27-3043",
+      "postings_index": "86",
+      "employment_index": "99",
+      "annual_wage_usd": "73600",
+      "occupation": "Writers and Authors",
+      "sector": "Media",
+      "ai_exposure": 0.88,
+      "ai_affordability_index": 43.34,
+      "wage_indexed": 0.847,
+      "substitution_pressure": 32.3045,
+      "risk_score": 37.9428
+    },
+    {
+      "date": "2025-01-01",
+      "occ_code": "29-1141",
+      "postings_index": "101",
+      "employment_index": "103",
+      "annual_wage_usd": "88400",
+      "occupation": "Registered Nurses",
+      "sector": "Healthcare",
+      "ai_exposure": 0.31,
+      "ai_affordability_index": 43.34,
+      "wage_indexed": 1.0173,
+      "substitution_pressure": 13.6684,
+      "risk_score": 13.1389
+    },
+    {
+      "date": "2025-01-01",
+      "occ_code": "11-3031",
+      "postings_index": "97",
+      "employment_index": "102",
+      "annual_wage_usd": "159000",
+      "occupation": "Financial Managers",
+      "sector": "Finance",
+      "ai_exposure": 0.64,
+      "ai_affordability_index": 43.34,
+      "wage_indexed": 1.8298,
+      "substitution_pressure": 50.7551,
+      "risk_score": 51.2989
+    },
+    {
+      "date": "2025-01-01",
+      "occ_code": "41-2031",
+      "postings_index": "99",
+      "employment_index": "101",
+      "annual_wage_usd": "35800",
+      "occupation": "Retail Salespersons",
+      "sector": "Retail",
+      "ai_exposure": 0.27,
+      "ai_affordability_index": 43.34,
+      "wage_indexed": 0.412,
+      "substitution_pressure": 4.8211,
+      "risk_score": 4.8216
+    },
+    {
+      "date": "2025-01-01",
+      "occ_code": "53-3032",
+      "postings_index": "98",
+      "employment_index": "102",
+      "annual_wage_usd": "55100",
+      "occupation": "Heavy and Tractor-Trailer Truck Drivers",
+      "sector": "Transportation",
+      "ai_exposure": 0.11,
+      "ai_affordability_index": 43.34,
+      "wage_indexed": 0.6341,
+      "substitution_pressure": 3.0231,
+      "risk_score": 3.0243
+    },
+    {
+      "date": "2025-01-01",
+      "occ_code": "25-2021",
+      "postings_index": "99",
+      "employment_index": "101",
+      "annual_wage_usd": "66200",
+      "occupation": "Elementary School Teachers",
+      "sector": "Education",
+      "ai_exposure": 0.22,
+      "ai_affordability_index": 43.34,
+      "wage_indexed": 0.7619,
+      "substitution_pressure": 7.2641,
+      "risk_score": 7.2648
+    },
+    {
+      "date": "2025-01-01",
+      "occ_code": "15-2051",
+      "postings_index": "96",
+      "employment_index": "103",
+      "annual_wage_usd": "121000",
+      "occupation": "Data Scientists",
+      "sector": "Technology",
+      "ai_exposure": 0.69,
+      "ai_affordability_index": 43.34,
+      "wage_indexed": 1.3925,
+      "substitution_pressure": 41.6425,
+      "risk_score": 42.1142
+    },
+    {
+      "date": "2026-01-01",
+      "occ_code": "15-1256",
+      "postings_index": "91",
+      "employment_index": "102",
+      "annual_wage_usd": "136000",
+      "occupation": "Software Developers",
+      "sector": "Technology",
+      "ai_exposure": 0.78,
+      "ai_affordability_index": 67.45,
+      "wage_indexed": 1.5651,
+      "substitution_pressure": 82.3434,
+      "risk_score": 88.713
+    },
+    {
+      "date": "2026-01-01",
+      "occ_code": "13-2011",
+      "postings_index": "89",
+      "employment_index": "101",
+      "annual_wage_usd": "93800",
+      "occupation": "Accountants and Auditors",
+      "sector": "Business Services",
+      "ai_exposure": 0.74,
+      "ai_affordability_index": 67.45,
+      "wage_indexed": 1.0795,
+      "substitution_pressure": 53.8803,
+      "risk_score": 59.9403
+    },
+    {
+      "date": "2026-01-01",
+      "occ_code": "43-6014",
+      "postings_index": "81",
+      "employment_index": "99",
+      "annual_wage_usd": "44100",
+      "occupation": "Secretaries and Administrative Assistants",
+      "sector": "Office Support",
+      "ai_exposure": 0.82,
+      "ai_affordability_index": 67.45,
+      "wage_indexed": 0.5075,
+      "substitution_pressure": 28.0704,
+      "risk_score": 35.0048
+    },
+    {
+      "date": "2026-01-01",
+      "occ_code": "27-3043",
+      "postings_index": "78",
+      "employment_index": "98",
+      "annual_wage_usd": "74200",
+      "occupation": "Writers and Authors",
+      "sector": "Media",
+      "ai_exposure": 0.88,
+      "ai_affordability_index": 67.45,
+      "wage_indexed": 0.8539,
+      "substitution_pressure": 50.6853,
+      "risk_score": 66.3073
+    },
+    {
+      "date": "2026-01-01",
+      "occ_code": "29-1141",
+      "postings_index": "102",
+      "employment_index": "104",
+      "annual_wage_usd": "90500",
+      "occupation": "Registered Nurses",
+      "sector": "Healthcare",
+      "ai_exposure": 0.31,
+      "ai_affordability_index": 67.45,
+      "wage_indexed": 1.0415,
+      "substitution_pressure": 21.7774,
+      "risk_score": 20.5292
+    },
+    {
+      "date": "2026-01-01",
+      "occ_code": "11-3031",
+      "postings_index": "93",
+      "employment_index": "103",
+      "annual_wage_usd": "162000",
+      "occupation": "Financial Managers",
+      "sector": "Finance",
+      "ai_exposure": 0.64,
+      "ai_affordability_index": 67.45,
+      "wage_indexed": 1.8644,
+      "substitution_pressure": 80.4805,
+      "risk_score": 84.0176
+    },
+    {
+      "date": "2026-01-01",
+      "occ_code": "41-2031",
+      "postings_index": "97",
+      "employment_index": "101",
+      "annual_wage_usd": "36500",
+      "occupation": "Retail Salespersons",
+      "sector": "Retail",
+      "ai_exposure": 0.27,
+      "ai_affordability_index": 67.45,
+      "wage_indexed": 0.4201,
+      "substitution_pressure": 7.6498,
+      "risk_score": 7.8083
+    },
+    {
+      "date": "2026-01-01",
+      "occ_code": "53-3032",
+      "postings_index": "97",
+      "employment_index": "102",
+      "annual_wage_usd": "56200",
+      "occupation": "Heavy and Tractor-Trailer Truck Drivers",
+      "sector": "Transportation",
+      "ai_exposure": 0.11,
+      "ai_affordability_index": 67.45,
+      "wage_indexed": 0.6468,
+      "substitution_pressure": 4.7987,
+      "risk_score": 4.8501
+    },
+    {
+      "date": "2026-01-01",
+      "occ_code": "25-2021",
+      "postings_index": "99",
+      "employment_index": "101",
+      "annual_wage_usd": "67300",
+      "occupation": "Elementary School Teachers",
+      "sector": "Education",
+      "ai_exposure": 0.22,
+      "ai_affordability_index": 67.45,
+      "wage_indexed": 0.7745,
+      "substitution_pressure": 11.493,
+      "risk_score": 11.4941
+    },
+    {
+      "date": "2026-01-01",
+      "occ_code": "15-2051",
+      "postings_index": "94",
+      "employment_index": "104",
+      "annual_wage_usd": "124000",
+      "occupation": "Data Scientists",
+      "sector": "Technology",
+      "ai_exposure": 0.69,
+      "ai_affordability_index": 67.45,
+      "wage_indexed": 1.427,
+      "substitution_pressure": 66.415,
+      "risk_score": 67.9368
+    }
+  ],
+  "labor_index": [
+    {
+      "date": "2024-01-01",
+      "labor_substitution_pressure_raw": 0.0,
+      "high_exposure_postings": 100.0,
+      "low_exposure_postings": 100.0,
+      "labor_substitution_pressure_index": 0.0
+    },
+    {
+      "date": "2025-01-01",
+      "labor_substitution_pressure_raw": 26.981506200325903,
+      "high_exposure_postings": 92.0,
+      "low_exposure_postings": 98.8,
+      "labor_substitution_pressure_index": 60.37
+    },
+    {
+      "date": "2026-01-01",
+      "labor_substitution_pressure_raw": 44.69441533017741,
+      "high_exposure_postings": 86.6,
+      "low_exposure_postings": 97.6,
+      "labor_substitution_pressure_index": 100.0
+    }
+  ],
+  "concentration_index": [
+    {
+      "date": "2024-01-01",
+      "hhi": 0.2496,
+      "ai_concentration_index": 100.0
+    },
+    {
+      "date": "2024-07-01",
+      "hhi": 0.249,
+      "ai_concentration_index": 92.31
+    },
+    {
+      "date": "2025-01-01",
+      "hhi": 0.2432,
+      "ai_concentration_index": 17.95
+    },
+    {
+      "date": "2025-07-01",
+      "hhi": 0.243,
+      "ai_concentration_index": 15.38
+    },
+    {
+      "date": "2026-01-01",
+      "hhi": 0.2418,
+      "ai_concentration_index": 0.0
+    }
+  ],
+  "macro_fragility": [
+    {
+      "date": "2024-01-01",
+      "unemployment_rate": 3.8,
+      "labor_productivity_index": 100.0,
+      "real_wage_index": 100.0,
+      "job_openings_index": 100.0,
+      "sector_stress_index": 100.0,
+      "wage_productivity_gap": 0.0,
+      "job_openings_stress": 0.0,
+      "ai_affordability_index": 0.0,
+      "fragility_raw": 0.0,
+      "economic_fragility_index": 0.0
+    },
+    {
+      "date": "2024-04-01",
+      "unemployment_rate": 3.9,
+      "labor_productivity_index": 101.2,
+      "real_wage_index": 100.4,
+      "job_openings_index": 99.4,
+      "sector_stress_index": 100.3,
+      "wage_productivity_gap": 0.7999999999999972,
+      "job_openings_stress": 0.5999999999999943,
+      "ai_affordability_index": 67.45,
+      "fragility_raw": 17.2289,
+      "economic_fragility_index": 17.81
+    },
+    {
+      "date": "2024-07-01",
+      "unemployment_rate": 4.0,
+      "labor_productivity_index": 102.8,
+      "real_wage_index": 100.7,
+      "job_openings_index": 98.8,
+      "sector_stress_index": 100.8,
+      "wage_productivity_gap": 2.0999999999999943,
+      "job_openings_stress": 1.2000000000000028,
+      "ai_affordability_index": 100.0,
+      "fragility_raw": 33.8885,
+      "economic_fragility_index": 35.03
+    },
+    {
+      "date": "2024-10-01",
+      "unemployment_rate": 4.1,
+      "labor_productivity_index": 103.7,
+      "real_wage_index": 100.9,
+      "job_openings_index": 98.2,
+      "sector_stress_index": 101.2,
+      "wage_productivity_gap": 2.799999999999997,
+      "job_openings_stress": 1.7999999999999972,
+      "ai_affordability_index": 67.45,
+      "fragility_raw": 41.0106,
+      "economic_fragility_index": 42.39
+    },
+    {
+      "date": "2025-01-01",
+      "unemployment_rate": 4.1,
+      "labor_productivity_index": 104.6,
+      "real_wage_index": 101.0,
+      "job_openings_index": 97.4,
+      "sector_stress_index": 101.8,
+      "wage_productivity_gap": 3.5999999999999943,
+      "job_openings_stress": 2.5999999999999943,
+      "ai_affordability_index": 43.34,
+      "fragility_raw": 47.3041,
+      "economic_fragility_index": 48.9
+    },
+    {
+      "date": "2025-04-01",
+      "unemployment_rate": 4.2,
+      "labor_productivity_index": 105.3,
+      "real_wage_index": 101.1,
+      "job_openings_index": 96.8,
+      "sector_stress_index": 102.4,
+      "wage_productivity_gap": 4.200000000000003,
+      "job_openings_stress": 3.200000000000003,
+      "ai_affordability_index": 67.45,
+      "fragility_raw": 60.3262,
+      "economic_fragility_index": 62.36
+    },
+    {
+      "date": "2025-07-01",
+      "unemployment_rate": 4.3,
+      "labor_productivity_index": 106.2,
+      "real_wage_index": 101.2,
+      "job_openings_index": 96.1,
+      "sector_stress_index": 103.1,
+      "wage_productivity_gap": 5.0,
+      "job_openings_stress": 3.9000000000000057,
+      "ai_affordability_index": 67.45,
+      "fragility_raw": 72.5584,
+      "economic_fragility_index": 75.0
+    },
+    {
+      "date": "2025-10-01",
+      "unemployment_rate": 4.4,
+      "labor_productivity_index": 107.4,
+      "real_wage_index": 101.3,
+      "job_openings_index": 95.4,
+      "sector_stress_index": 103.7,
+      "wage_productivity_gap": 6.1000000000000085,
+      "job_openings_stress": 4.599999999999994,
+      "ai_affordability_index": 67.45,
+      "fragility_raw": 85.7929,
+      "economic_fragility_index": 88.68
+    },
+    {
+      "date": "2026-01-01",
+      "unemployment_rate": 4.5,
+      "labor_productivity_index": 108.1,
+      "real_wage_index": 101.4,
+      "job_openings_index": 94.8,
+      "sector_stress_index": 104.4,
+      "wage_productivity_gap": 6.699999999999989,
+      "job_openings_stress": 5.200000000000003,
+      "ai_affordability_index": 67.45,
+      "fragility_raw": 96.745,
+      "economic_fragility_index": 100.0
+    }
+  ],
+  "freshness": [
+    {
+      "dataset": "ai_pricing",
+      "captured_at": "2026-03-18T20:23:41.937767+00:00",
+      "mode": "fallback_snapshot",
+      "status": "fallback",
+      "description": "",
+      "category": ""
+    },
+    {
+      "dataset": "capability_benchmarks",
+      "captured_at": "2026-03-18T20:23:41.937816+00:00",
+      "mode": "manual_curated_snapshot",
+      "status": "source_backed",
+      "description": "",
+      "category": ""
+    },
+    {
+      "dataset": "macro_labor",
+      "captured_at": "2026-03-18T20:23:41.937880+00:00",
+      "mode": "deterministic_fallback_snapshot",
+      "status": "fallback",
+      "description": "",
+      "category": ""
+    },
+    {
+      "dataset": "occupation_labor",
+      "captured_at": "2026-03-18T20:23:41.937915+00:00",
+      "mode": "deterministic_fallback_snapshot",
+      "status": "fallback",
+      "description": "",
+      "category": ""
+    }
+  ],
+  "shares": [
+    {
+      "date": "2024-01-01",
+      "market": "frontier_model_access",
+      "firm": "OpenAI",
+      "share": "0.38",
+      "source_type": "manual_proxy",
+      "notes": "Proxy share based on public ecosystem visibility and enterprise usage discussion."
+    },
+    {
+      "date": "2024-01-01",
+      "market": "frontier_model_access",
+      "firm": "Anthropic",
+      "share": "0.22",
+      "source_type": "manual_proxy",
+      "notes": "Proxy share for frontier API access."
+    },
+    {
+      "date": "2024-01-01",
+      "market": "frontier_model_access",
+      "firm": "Google",
+      "share": "0.18",
+      "source_type": "manual_proxy",
+      "notes": "Proxy share for Gemini family access."
+    },
+    {
+      "date": "2024-01-01",
+      "market": "frontier_model_access",
+      "firm": "Meta",
+      "share": "0.12",
+      "source_type": "manual_proxy",
+      "notes": "Proxy share for open model ecosystem access."
+    },
+    {
+      "date": "2024-01-01",
+      "market": "frontier_model_access",
+      "firm": "Others",
+      "share": "0.10",
+      "source_type": "manual_proxy",
+      "notes": "Residual."
+    },
+    {
+      "date": "2024-07-01",
+      "market": "frontier_model_access",
+      "firm": "OpenAI",
+      "share": "0.37",
+      "source_type": "manual_proxy",
+      "notes": "Manual update."
+    },
+    {
+      "date": "2024-07-01",
+      "market": "frontier_model_access",
+      "firm": "Anthropic",
+      "share": "0.24",
+      "source_type": "manual_proxy",
+      "notes": "Manual update."
+    },
+    {
+      "date": "2024-07-01",
+      "market": "frontier_model_access",
+      "firm": "Google",
+      "share": "0.18",
+      "source_type": "manual_proxy",
+      "notes": "Manual update."
+    },
+    {
+      "date": "2024-07-01",
+      "market": "frontier_model_access",
+      "firm": "Meta",
+      "share": "0.11",
+      "source_type": "manual_proxy",
+      "notes": "Manual update."
+    },
+    {
+      "date": "2024-07-01",
+      "market": "frontier_model_access",
+      "firm": "Others",
+      "share": "0.10",
+      "source_type": "manual_proxy",
+      "notes": "Residual."
+    },
+    {
+      "date": "2025-01-01",
+      "market": "frontier_model_access",
+      "firm": "OpenAI",
+      "share": "0.35",
+      "source_type": "manual_proxy",
+      "notes": "Manual update."
+    },
+    {
+      "date": "2025-01-01",
+      "market": "frontier_model_access",
+      "firm": "Anthropic",
+      "share": "0.25",
+      "source_type": "manual_proxy",
+      "notes": "Manual update."
+    },
+    {
+      "date": "2025-01-01",
+      "market": "frontier_model_access",
+      "firm": "Google",
+      "share": "0.19",
+      "source_type": "manual_proxy",
+      "notes": "Manual update."
+    },
+    {
+      "date": "2025-01-01",
+      "market": "frontier_model_access",
+      "firm": "Meta",
+      "share": "0.11",
+      "source_type": "manual_proxy",
+      "notes": "Manual update."
+    },
+    {
+      "date": "2025-01-01",
+      "market": "frontier_model_access",
+      "firm": "Others",
+      "share": "0.10",
+      "source_type": "manual_proxy",
+      "notes": "Residual."
+    },
+    {
+      "date": "2025-07-01",
+      "market": "frontier_model_access",
+      "firm": "OpenAI",
+      "share": "0.34",
+      "source_type": "manual_proxy",
+      "notes": "Manual update."
+    },
+    {
+      "date": "2025-07-01",
+      "market": "frontier_model_access",
+      "firm": "Anthropic",
+      "share": "0.27",
+      "source_type": "manual_proxy",
+      "notes": "Manual update."
+    },
+    {
+      "date": "2025-07-01",
+      "market": "frontier_model_access",
+      "firm": "Google",
+      "share": "0.18",
+      "source_type": "manual_proxy",
+      "notes": "Manual update."
+    },
+    {
+      "date": "2025-07-01",
+      "market": "frontier_model_access",
+      "firm": "Meta",
+      "share": "0.11",
+      "source_type": "manual_proxy",
+      "notes": "Manual update."
+    },
+    {
+      "date": "2025-07-01",
+      "market": "frontier_model_access",
+      "firm": "Others",
+      "share": "0.10",
+      "source_type": "manual_proxy",
+      "notes": "Residual."
+    },
+    {
+      "date": "2026-01-01",
+      "market": "frontier_model_access",
+      "firm": "OpenAI",
+      "share": "0.33",
+      "source_type": "manual_proxy",
+      "notes": "Manual update."
+    },
+    {
+      "date": "2026-01-01",
+      "market": "frontier_model_access",
+      "firm": "Anthropic",
+      "share": "0.28",
+      "source_type": "manual_proxy",
+      "notes": "Manual update."
+    },
+    {
+      "date": "2026-01-01",
+      "market": "frontier_model_access",
+      "firm": "Google",
+      "share": "0.18",
+      "source_type": "manual_proxy",
+      "notes": "Manual update."
+    },
+    {
+      "date": "2026-01-01",
+      "market": "frontier_model_access",
+      "firm": "Meta",
+      "share": "0.11",
+      "source_type": "manual_proxy",
+      "notes": "Manual update."
+    },
+    {
+      "date": "2026-01-01",
+      "market": "frontier_model_access",
+      "firm": "Others",
+      "share": "0.10",
+      "source_type": "manual_proxy",
+      "notes": "Residual."
+    }
+  ],
+  "source_registry": [
+    {
+      "source_id": "openai_pricing",
+      "domain": "openai.com",
+      "category": "ai_pricing",
+      "ingestion_mode": "live_with_fallback",
+      "status": "partial",
+      "description": "Official pricing page parsed opportunistically with deterministic fallback snapshots."
+    },
+    {
+      "source_id": "anthropic_pricing",
+      "domain": "anthropic.com",
+      "category": "ai_pricing",
+      "ingestion_mode": "live_with_fallback",
+      "status": "partial",
+      "description": "Official pricing page parsed opportunistically with deterministic fallback snapshots."
+    },
+    {
+      "source_id": "google_pricing",
+      "domain": "cloud.google.com",
+      "category": "ai_pricing",
+      "ingestion_mode": "live_with_fallback",
+      "status": "partial",
+      "description": "Google Gemini pricing page parsed opportunistically with deterministic fallback snapshots."
+    },
+    {
+      "source_id": "frontier_benchmarks",
+      "domain": "manual_curated",
+      "category": "capabilities",
+      "ingestion_mode": "manual_snapshot",
+      "status": "working",
+      "description": "Curated benchmark panel saved locally for reproducibility."
+    },
+    {
+      "source_id": "fred_macro",
+      "domain": "fred.stlouisfed.org",
+      "category": "macro",
+      "ingestion_mode": "api_or_fallback",
+      "status": "partial",
+      "description": "FRED-compatible pull can be added later; v1 ships with deterministic local snapshots."
+    },
+    {
+      "source_id": "occupation_exposure_reference",
+      "domain": "onet_style_proxy",
+      "category": "labor",
+      "ingestion_mode": "manual_reference",
+      "status": "working",
+      "description": "Manual occupation exposure reference table."
+    },
+    {
+      "source_id": "concentration_reference",
+      "domain": "manual_proxy",
+      "category": "concentration",
+      "ingestion_mode": "manual_reference",
+      "status": "working",
+      "description": "Editable market share proxy table for HHI calculations."
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "captured_at": "2026-03-18T20:23:41.937767+00:00",
+  "mode": "fallback_snapshot",
+  "attempted_urls": [
+    "https://openai.com/api/pricing/",
+    "https://www.anthropic.com/pricing",
+    "https://cloud.google.com/vertex-ai/generative-ai/pricing"
+  ],
+  "fetched_html_sizes": {
+    "https://openai.com/api/pricing/": 0,
+    "https://www.anthropic.com/pricing": 0,
+    "https://cloud.google.com/vertex-ai/generative-ai/pricing": 0
+  },
+  "errors": [
+    "https://openai.com/api/pricing/: <urlopen error Tunnel connection failed: 403 Forbidden>",
+    "https://www.anthropic.com/pricing: <urlopen error Tunnel connection failed: 403 Forbidden>",
+    "https://cloud.google.com/vertex-ai/generative-ai/pricing: <urlopen error Tunnel connection failed: 403 Forbidden>"
+  ]
+}

@@ -1,0 +1,23 @@
+[
+  {
+    "date": "2024-01-01",
+    "labor_substitution_pressure_raw": 0.0,
+    "high_exposure_postings": 100.0,
+    "low_exposure_postings": 100.0,
+    "labor_substitution_pressure_index": 0.0
+  },
+  {
+    "date": "2025-01-01",
+    "labor_substitution_pressure_raw": 26.981506200325903,
+    "high_exposure_postings": 92.0,
+    "low_exposure_postings": 98.8,
+    "labor_substitution_pressure_index": 60.37
+  },
+  {
+    "date": "2026-01-01",
+    "labor_substitution_pressure_raw": 44.69441533017741,
+    "high_exposure_postings": 86.6,
+    "low_exposure_postings": 97.6,
+    "labor_substitution_pressure_index": 100.0
+  }
+]

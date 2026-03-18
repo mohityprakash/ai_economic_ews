@@ -1,0 +1,34 @@
+[
+  {
+    "dataset": "ai_pricing",
+    "captured_at": "2026-03-18T20:23:41.937767+00:00",
+    "mode": "fallback_snapshot",
+    "status": "fallback",
+    "description": "",
+    "category": ""
+  },
+  {
+    "dataset": "capability_benchmarks",
+    "captured_at": "2026-03-18T20:23:41.937816+00:00",
+    "mode": "manual_curated_snapshot",
+    "status": "source_backed",
+    "description": "",
+    "category": ""
+  },
+  {
+    "dataset": "macro_labor",
+    "captured_at": "2026-03-18T20:23:41.937880+00:00",
+    "mode": "deterministic_fallback_snapshot",
+    "status": "fallback",
+    "description": "",
+    "category": ""
+  },
+  {
+    "dataset": "occupation_labor",
+    "captured_at": "2026-03-18T20:23:41.937915+00:00",
+    "mode": "deterministic_fallback_snapshot",
+    "status": "fallback",
+    "description": "",
+    "category": ""
+  }
+]

@@ -1,0 +1,58 @@
+{
+  "raw_metadata": [
+    {
+      "dataset_name": "ai_pricing",
+      "used_fallback": true,
+      "source_url": null,
+      "captured_at": "2026-03-18T20:23:41.937767+00:00",
+      "mode": "fallback_snapshot",
+      "attempted_urls": [
+        "https://openai.com/api/pricing/",
+        "https://www.anthropic.com/pricing",
+        "https://cloud.google.com/vertex-ai/generative-ai/pricing"
+      ],
+      "fetched_html_sizes": {
+        "https://openai.com/api/pricing/": 0,
+        "https://www.anthropic.com/pricing": 0,
+        "https://cloud.google.com/vertex-ai/generative-ai/pricing": 0
+      },
+      "errors": [
+        "https://openai.com/api/pricing/: <urlopen error Tunnel connection failed: 403 Forbidden>",
+        "https://www.anthropic.com/pricing: <urlopen error Tunnel connection failed: 403 Forbidden>",
+        "https://cloud.google.com/vertex-ai/generative-ai/pricing: <urlopen error Tunnel connection failed: 403 Forbidden>"
+      ]
+    },
+    {
+      "dataset_name": "capability_benchmarks",
+      "used_fallback": false,
+      "source_url": "local_curated_snapshot",
+      "captured_at": "2026-03-18T20:23:41.937816+00:00",
+      "mode": "manual_curated_snapshot"
+    },
+    {
+      "dataset_name": "macro_labor",
+      "used_fallback": true,
+      "source_url": null,
+      "captured_at": "2026-03-18T20:23:41.937880+00:00",
+      "mode": "deterministic_fallback_snapshot"
+    },
+    {
+      "dataset_name": "occupation_labor",
+      "used_fallback": true,
+      "source_url": null,
+      "captured_at": "2026-03-18T20:23:41.937915+00:00",
+      "mode": "deterministic_fallback_snapshot"
+    }
+  ],
+  "mart_paths": {
+    "cost_capability": "data/marts/cost_capability.json",
+    "affordability_timeseries": "data/marts/affordability_timeseries.json",
+    "occupation_panel": "data/marts/occupation_panel.json",
+    "labor_index": "data/marts/labor_index.json",
+    "concentration_index": "data/marts/concentration_index.json",
+    "macro_fragility": "data/marts/macro_fragility.json",
+    "overview_indices": "data/marts/overview_indices.json",
+    "data_freshness": "data/marts/data_freshness.json"
+  },
+  "built_at": "2026-03-18T20:23:41.956155+00:00"
+}

@@ -1,0 +1,8 @@
+source_id,domain,category,ingestion_mode,status,description
+openai_pricing,openai.com,ai_pricing,live_with_fallback,partial,Official pricing page parsed opportunistically with deterministic fallback snapshots.
+anthropic_pricing,anthropic.com,ai_pricing,live_with_fallback,partial,Official pricing page parsed opportunistically with deterministic fallback snapshots.
+google_pricing,cloud.google.com,ai_pricing,live_with_fallback,partial,Google Gemini pricing page parsed opportunistically with deterministic fallback snapshots.
+frontier_benchmarks,manual_curated,capabilities,manual_snapshot,working,Curated benchmark panel saved locally for reproducibility.
+fred_macro,fred.stlouisfed.org,macro,api_or_fallback,partial,FRED-compatible pull can be added later; v1 ships with deterministic local snapshots.
+occupation_exposure_reference,onet_style_proxy,labor,manual_reference,working,Manual occupation exposure reference table.
+concentration_reference,manual_proxy,concentration,manual_reference,working,Editable market share proxy table for HHI calculations.
